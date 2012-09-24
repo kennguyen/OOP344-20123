@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
+int i = 0;
 int count(){
-static int i = 0;
   i++;
   return i;
 }
@@ -11,6 +11,7 @@ int main(){
   for(j=0;j<10;j++){
     cout<<count()<<endl;
   }
+  cout<<i<<endl;
   return 0;
 }
 

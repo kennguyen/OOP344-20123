@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
+
 int count(){
-static int i = 0;
+  int i = 0;
   i++;
   return i;
 }
