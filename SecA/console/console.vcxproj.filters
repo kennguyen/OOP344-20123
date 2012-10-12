@@ -21,7 +21,7 @@
     <ClCompile Include="console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="consoleTester.cpp">
+    <ClCompile Include="editTester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

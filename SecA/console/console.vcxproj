@@ -76,7 +76,7 @@
   <ItemGroup>
     <ClCompile Include="bconsole.cpp" />
     <ClCompile Include="console.cpp" />
-    <ClCompile Include="consoleTester.cpp" />
+    <ClCompile Include="editTester.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bconsole.h" />
