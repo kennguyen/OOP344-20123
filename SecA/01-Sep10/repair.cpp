@@ -3,7 +3,7 @@ namespace rep{
 
 class Car{
 public:
-  void addProblem(char *str);
+  void addProblem(char* str);
   void set();
 };
 
