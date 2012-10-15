@@ -75,12 +75,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bconsole.cpp" />
+    <ClCompile Include="cframe.cpp" />
     <ClCompile Include="console.cpp" />
-    <ClCompile Include="consoleTester.cpp" />
+    <ClCompile Include="Test1Frame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bconsole.h" />
+    <ClInclude Include="cframe.h" />
     <ClInclude Include="console.h" />
+    <ClInclude Include="cuigh.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
