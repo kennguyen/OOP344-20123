@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{082A7414-1F6A-4CE7-BED8-8DC5DC537577}</ProjectGuid>
+    <ProjectGuid>{57288B9A-CD87-4AA8-ABDD-E03953329852}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>console</RootNamespace>
+    <RootNamespace>My07Oct15</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -74,16 +74,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bconsole.cpp" />
-    <ClCompile Include="cframe.cpp" />
-    <ClCompile Include="console.cpp" />
-    <ClCompile Include="Test1Frame.cpp" />
+    <ClInclude Include="intarr.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bconsole.h" />
-    <ClInclude Include="cframe.h" />
-    <ClInclude Include="console.h" />
-    <ClInclude Include="cuigh.h" />
+    <ClCompile Include="intarr.cpp" />
+    <ClCompile Include="intarrtester.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
